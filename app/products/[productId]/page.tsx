@@ -1,11 +1,18 @@
 import { Container } from "@/components/container";
 import { ProductWrapper } from "@/components/products/product-wrapper";
 import { METADATA } from "@/constants/meta";
-import { fetchProductById } from "@/lib/api";
+import { fetchProductById, fetchProducts } from "@/lib/api";
 import { redirect } from "next/navigation";
 
 interface Params {
   params: Promise<{ productId: string }>;
+}
+
+export async function generateStaticParams() {
+  const products = await fetchProducts();
+  return products.map((p) => ({
+    productId: p.id.toString(),
+  }));
 }
 
 export async function generateMetadata({ params }: Params) {
