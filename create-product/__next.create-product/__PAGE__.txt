@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[91216,["/_next/static/chunks/7f27f9630a007744.js","/_next/static/chunks/7cdae4052b433b71.js","/_next/static/chunks/f76734d294d9db65.js"],"ProductForm"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/8a1e5eff4afd5485.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"Vkbmez16AVxQN9rYxYAEw","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10","children":["$","div",null,{"className":"max-w-xl mx-auto p-4 bg-card rounded-md","children":[["$","h1",null,{"className":"text-2xl font-semibold mb-4","children":"Создать товар"}],["$","$L2",null,{}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/7cdae4052b433b71.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/f76734d294d9db65.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
