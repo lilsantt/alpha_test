@@ -38,7 +38,7 @@ export const useProductStore = create<ProductState>()(
 
       createProduct: (product) =>
         set((state) => ({
-          products: [...state.products, product],
+          products: [product, ...state.products],
         })),
 
       setHasHydrated: (state) => {
